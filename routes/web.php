@@ -1,5 +1,5 @@
 <?php
-
+namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +18,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Route For Login Page
-Route::get('/',function(){
+Route::get('/login',function(){
 	return view('login');
 });
+
+//Route for User Controller
+Route::post('/login',[UserController::class,'login']);
+
+
+//Route for Product Controller
+Route::get('/product',[ProductController::class,'index']);
