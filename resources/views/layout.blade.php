@@ -30,6 +30,56 @@
       height: 500px;
       padding-top: 100px;
     }
+    .custom-product
+    {
+      height: auto;
+      
+    }
+    .img-slider
+    {
+      height: 400px;
+      padding: 50px;
+    }
+    .carousel-caption
+    {
+      background-color: #ff7f7f;
+      opacity: 0.8;
+    }
+    .trending-wrapper
+    {
+      margin: 20px;
+    }
+    .trending-item
+    {
+      float: left;
+      width: 20%;
+    }
+    .trending-img
+    {
+      height: 100px;
+      
+    }
+    .custom-detail
+    {
+      height: 500px;
+      margin: 20px;
+    }
+    .detail-img
+    {
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 50px; 
+    }
+    .search-box
+    {
+      width: 500px;
+    }
+    .cart-list-divider
+    {
+      border-bottom: 1px solid green;
+      margin-bottom: 20px;
+      padding-bottom: 20px: 
+    }
   </style>
   </body>
 </html>

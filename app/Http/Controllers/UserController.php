@@ -13,10 +13,10 @@ class UserController extends Controller
 
 
     	$data=User::where(['email'=>$req->email])->first();
-    	if($data && Hash::check($req->password, $data->password))
+        if($data && Hash::check($req->password, $data->password))
     	{
             $req->session()->put('user',$data);
-            return redirect('/');
+            return redirect('/product');
     		
     	}
     	else
